@@ -12,3 +12,4 @@
 # and which belongs in the Entry class.
 #
 # And... test your functionality using RSpec!
+
