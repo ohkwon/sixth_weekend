@@ -49,4 +49,11 @@ RSpec.describe Primenumber do
       expect(primer.is_prime?(16)).to eq(false)
     end
   end
+
+  describe '#highest_prime_number_under' do
+    it 'should return the highest prime number under the given number' do
+      primer = Primenumber.new
+      expect(primer.highest_prime_number_under(18)).to eq(17)
+    end
+  end
 end
